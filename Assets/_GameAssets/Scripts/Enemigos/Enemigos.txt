@@ -1,0 +1,7 @@
+SCRIPTS:
+1. EnemigoDisparador. Dispara proyectiles a partir de cierta distancia.
+2. EnemigoEspabilado. Como el torpe, pero a partir de cierta distancia sigue al player.
+3. EnemigoFijo. Mira al player sin moverse.
+4. EnemigoGaunlet. Sigue al player a cualquier distancia.
+5. EnemigoTorpe. Avanza y cuando choca contra algo, gira.
+6. Explosionador. Explota al acercarse al player.
