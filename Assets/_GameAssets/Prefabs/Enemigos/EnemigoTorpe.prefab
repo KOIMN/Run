@@ -48,6 +48,7 @@ GameObject:
   - component: {fileID: 4762109882534038515}
   - component: {fileID: 1136021583603232693}
   - component: {fileID: 6951965993208671808}
+  - component: {fileID: -4350808396554244781}
   m_Layer: 0
   m_Name: EnemigoTorpe
   m_TagString: Enemigo
@@ -275,6 +276,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefabObjetoReemplazo: {fileID: 5421459439164873003, guid: 7c6b641da3f2b1442aab7201f46816d1, type: 3}
   salud: 100
+--- !u!114 &-4350808396554244781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 474816731535730329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7afb6aa7f8c4e54eb426b1682e64549, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  puntos: 5
 --- !u!1 &892717189449116025
 GameObject:
   m_ObjectHideFlags: 0

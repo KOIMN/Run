@@ -199,6 +199,7 @@ GameObject:
   - component: {fileID: 663519471534987531}
   - component: {fileID: 4818370718947657720}
   - component: {fileID: -7852230989146233165}
+  - component: {fileID: 2101366888175247398}
   m_Layer: 0
   m_Name: EnemigoEspabilao
   m_TagString: Enemigo
@@ -429,6 +430,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefabObjetoReemplazo: {fileID: 5421459439164873003, guid: 7c6b641da3f2b1442aab7201f46816d1, type: 3}
   salud: 100
+--- !u!114 &2101366888175247398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1350775106313930101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7afb6aa7f8c4e54eb426b1682e64549, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  puntos: 5
 --- !u!1 &1660551569267272273
 GameObject:
   m_ObjectHideFlags: 0

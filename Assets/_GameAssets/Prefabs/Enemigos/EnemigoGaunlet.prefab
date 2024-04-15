@@ -548,6 +548,7 @@ GameObject:
   - component: {fileID: 2740455605748590432}
   - component: {fileID: 1808197608932893566}
   - component: {fileID: -5140226049474479765}
+  - component: {fileID: 8264699234252918706}
   m_Layer: 0
   m_Name: EnemigoGaunlet
   m_TagString: Enemigo
@@ -774,6 +775,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefabObjetoReemplazo: {fileID: 5421459439164873003, guid: 7c6b641da3f2b1442aab7201f46816d1, type: 3}
   salud: 100
+--- !u!114 &8264699234252918706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2839139777318086332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7afb6aa7f8c4e54eb426b1682e64549, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  puntos: 5
 --- !u!1 &2945596028375802974
 GameObject:
   m_ObjectHideFlags: 0
