@@ -14,8 +14,9 @@ GameObject:
   - component: {fileID: 5137952964316804223}
   - component: {fileID: 2353852485129788934}
   - component: {fileID: 528228574992834254}
+  - component: {fileID: 4446839670417586397}
   m_Layer: 0
-  m_Name: "BolaCa\xF1on"
+  m_Name: BolaCanyon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -211,7 +212,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8310202025201683270}
   serializedVersion: 4
-  m_Mass: 0.1
+  m_Mass: 0.5
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -230,3 +231,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &4446839670417586397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8310202025201683270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb776c35b4c48324a9449663f1ea342d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distanciaExplosion: 0.6
+  prefabExplosion: {fileID: 5421459439164873003, guid: 7c6b641da3f2b1442aab7201f46816d1, type: 3}
+  damage: 20
+  targetTag: Player
