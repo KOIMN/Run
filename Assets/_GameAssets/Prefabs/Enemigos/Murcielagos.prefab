@@ -43,7 +43,7 @@ ParticleSystem:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4561077218980306855}
   serializedVersion: 8
-  lengthInSec: 2.2
+  lengthInSec: 0.8
   simulationSpeed: 1
   stopAction: 2
   cullingMode: 3
@@ -4599,7 +4599,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d1d7864e6ed9812409c3752ffda50920, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.707
+  m_Volume: 0.643
   m_Pitch: 0.8
   Loop: 0
   Mute: 0
